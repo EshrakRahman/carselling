@@ -1,5 +1,9 @@
-<div>
-    <!-- The only way to do great work is to love what you do. - Steve Jobs -->
-    <h1>Hello from the course</h1>
-    <p>{{ $name }}</p>
-</div>
+@extends('layouts.app')
+
+
+@section('title', 'Home Page')
+
+@section('content')
+    <h1>Home page content goes here</h1>
+
+@endsection
